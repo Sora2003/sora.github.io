@@ -1,0 +1,200 @@
+.header-list li {
+  font-size: 10px;
+  float: left;
+  padding: 20px 33px;
+  background-color: hsl(0, 1%, 20%);
+  color: #fff;
+  height: 10px;
+
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: black;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.btn-wrapper {
+position: relative;
+top: 6px;
+box-shadow: none;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.main p {
+  font: 12px;
+  border: 1px solid black;
+}  
+
+
+.btn {
+  position: relative;
+  padding: 8px 24px;
+  color: rgb(0, 4, 255);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* position: fixed; 
+  top: 0;
+  z-index: 10;*/
+}
+
+.header logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #000000;
+}
+
+.heading h2 {
+  font-weight: normal;
+  
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+ font: #3b5998;
+ cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  font: #3b5998;
+}
+
+.footer h3 {
+  font-weight: normal;
+  font-size: 10px
+  display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 50px;
+}
+
+.footer-col-sm-2 {
+  float: left;
+  font-size: 10px;
+  margin-left: 50px;
+}
+
+.footer p {
+  float: left;
+  font-size: 10px;
+  
+}
+
